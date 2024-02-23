@@ -103,7 +103,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - id: report-count
-      uses: raymond.shouse@gmail.com/arg-count-action@main
+      uses: raymondshouse/arg-count-action@main
       with:
         arguments-to-count: ${{ github.event.inputs.myValues }}
     - run: echo
